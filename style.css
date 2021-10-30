@@ -1,5 +1,9 @@
-
+html{
+    margin: 0;
+    padding: 0;
+}
  
+ /*Desktop view styling*/
   main {
     margin-top: 3.5rem;
     height: auto;
@@ -9,8 +13,6 @@
     grid-gap: 0.5rem;
    
   }
-  
- 
   
   .cards {
     margin: 3.5rem auto;
@@ -77,6 +79,8 @@
       grid-template-columns: repeat(2, minmax(5rem, 1fr));;
     }
   } 
+
+  /*Other devices view styling*/
 
   @media (max-width: 768px){
     main{
